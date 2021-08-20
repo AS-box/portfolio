@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アッズポート</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header_logo"><a href="">アッズポート</a></h1>
+    <button class="header_nav_btn">
+      <span class="header_nav_btn_bar top"></span>
+      <span class="header_nav_btn_bar middle"></span>
+      <span class="header_nav_btn_bar bottom"></span>
+    </button>
+  </header>
+  <nav class="nav">
+    <ul class="nav_list">
+      <li class="nav_list_outline"><a href="#">自己紹介</a></li>
+      <li class="nav_list_outline"><a href="#">制作実績</a></li>
+      <li class="nav_list_outline"><a href="#">サービス</a></li>
+      <li class="nav_list_outline"><a href="#">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about" class="about section">
+      <h2 class="about_head section_head"><img src="" alt="自己紹介"></h2>
+      <img class="about_photo" src="" alt="田中亜衣写真">
+      <h3 class="about_name">田中　亜衣</h3>
+      <div class="about_profile">
+        <p>1989年12月29日生まれ。<br>デジタルハリウッド大学デジタルコミュニケーション学部デジタルコンテンツ学科卒業。<br>大学卒業後はフロントエンドエンジニアとして9年ほど勤務。HTML、CSS、Javascriptが好き。</p>
+        <p>好きなことは、ゲーム、イラスト制作、ものづくり。</p>
+      </div>
+    </section>
+    <section id="works"></section>
+    <section id="service" class="service section">
+      <h2 class="service_head section_head"><img src="" alt="サービス"></h2>
+      <ul class="service_list">
+        <li class="service_list_content design">
+          <h3 class="title"><img src="" alt="デザイン"></h3>
+          <img class="image" src="" alt="デザイン画像">
+          <p>見る人にお客様の想いが伝わるように、お客様の要望に寄り添い、求められているものをデザインで再現します。WEBサイトデザインだけでなく、広告バナーやコラムに掲載するアイキャッチ画像まで幅広く対応致します。</p>
+        </li>
+        <li class="service_list_content coding">
+          <h3 class="title"><img src="" alt="コーディング"></h3>
+          <img class="image" src="" alt="コーディング画像">
+          <p>大学卒業から8年、一貫してHTML CSSを使用して様々なプロジェクトに関わってきました。また、Javascriptの知識も用いてアニメーション、動きのある画面作りが得意です。作って終わりではなく、その後も成長していくサイトを提供していきたいです。</p>
+        </li>
+        <li class="service_list_content illust">
+          <h3 class="title"><img src="" alt="イラスト"></h3>
+          <img class="image" src="" alt="イラスト画像">
+          <p>小さいからものつくりが好きで、特にイラストを描くことが好きです。可愛らしいイラストデータから、資料に使用するシンプルなキャラクター等あらゆるイラストを作成致します</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact" class="contact section">
+      <h2 class="contact_head section_head"><img src="" alt="お問い合わせ"></h2>
+      <form action="post" class="contact_form">
+        <ul class="contact_form_list">
+          <li>
+            <label for="name">お名前</label>
+            <input type="text" id="text">
+          </li>
+          <li>
+            <label for="mail">メールアドレス</label>
+            <input type="text" id="mail">
+          </li>
+          <li>
+            <label for="title">タイトル</label>
+            <input type="text" id="title">
+          </li>
+          <li>
+            <label for="detail">お問合わせ詳細</label>
+            <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+          </li>
+        </ul>
+        <button type="submit">送信する</button>
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+  
+</body>
+</html>
